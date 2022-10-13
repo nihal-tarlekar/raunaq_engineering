@@ -1,0 +1,920 @@
+.navbar {
+    position: relative;
+    padding: 2% 5%;
+    top: 0%;
+    width: 100%;
+}
+.bg-light{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+.nav-active {
+    font-weight: bold;
+    color: #000;
+}
+.product-navigation {
+    position: relative;
+    box-shadow: 0px 1px 20px 0px #00000024;
+}
+.product-detail{
+    background-image: url("../images/product/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5% 5%;
+    color: #000;
+}
+.products-rgt {
+    padding-left: 0%;
+}
+.project-expert{
+    padding: 0% 5%;
+}
+.product-detail h2{
+    position: absolute;
+    font-family: 'rubikmedium';
+    font-size: 164px;
+    color: #389de0b3 !important;
+    top: 8%;
+}
+.machine-img{
+    width: 34%;
+    margin-left: 26%;
+    margin-top: 12%;
+}
+.product-detail-indicators{
+    position: absolute;
+    transform: rotate(90deg);
+    right:74%;
+    bottom: 52%;
+    left: -20%;
+    z-index: 99999;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.products-rgt p.para{
+     font-family: 'rubiklight';
+     padding-top: 8%;
+}
+.products-rgt h3{
+    padding-top: 9%;
+}
+.capabilities-indicators li{
+    border: 0.8px solid #707070 !important;
+    background-color: transparent !important;
+    cursor: pointer;
+}
+.capabilities-indicators .active{
+    border-color: #2792D0 !important;
+	background-color: #2792D0 !important;
+}
+.product-detail .carousel-caption h3{
+    font-family: 'rubikregular';
+    font-size: 20px;
+    margin-bottom: -2%;
+}
+.product-detail .carousel-caption p{
+    font-family: 'rubikregular';
+    font-size: 14px;
+}
+.product-detail-slider .product-detail-caption{
+    position: relative;
+    left: 33%;
+    text-align: left;
+}
+.prj-main-title
+{
+    font-family: 'rubikmedium';
+    font-size: 20px !important;
+    margin-bottom: -0.5%;
+}
+.capabilities-details h1{
+    font-family: 'rubikregular';
+    font-size: 50px;
+    line-height: 50px;
+    padding-top: 5%;
+}
+.products-rgt h5 {
+    font-family: 'rubikregular';
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 3%;
+}
+.products-rgt p:last-child{
+    font-family: 'rubiklight';
+    font-size: 20px;
+}
+.res-img{
+    width: 35%;
+}
+
+.product-gear-icon p{
+	font-family: 'rubikregular';
+    font-size: 18px;
+    padding-top: 3%;
+}
+.nxt-prv-btn{
+    text-align: center;
+}
+.nxt-prv-btn-details{
+    display: inline-flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.btn-outline-success, .btn-outline-success-1{
+    font-family: 'rubiklight';
+    font-size: 14px;
+    color: #000;
+    background-color: transparent;
+    border-color: #2792D0;
+    border-radius: 0px;
+    padding: 5% 10%;
+    margin-left: -25%;
+}
+.btn-outline-success-1{
+    padding: 6% 10%;
+    margin-left: 25%;
+}
+.btn.btn-outline-success:hover, .btn-outline-success-1:hover{
+    background-color: #2792D0;
+    border-color: #2792D0;
+    color: #fff;
+    transition: ease 0.3s;
+}
+.pressure-vessels-indicator li{
+    margin-left: 10%;
+}
+.pressure-vessels-indicator{
+    bottom: 100% !important;
+}
+.column-pipe-indicator li, .motor-stool-indicator li{
+    margin-left: 10%;
+}
+.motor-stool-indicator{
+    bottom: 80% !important;
+}
+.column-pipe-indicator{
+    bottom: 63% !important;
+}
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #2792D0;
+    border-color: #2792D0;
+}
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+@media screen and (max-width: 2560px){
+
+.capabilities-details h1{
+    font-size: 84px;
+    line-height: 50px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.prj-heading {
+    font-size: 39px;
+    line-height: 46px;
+    padding-top: 3%;
+}
+.capabilities-indicators {
+    right: 65%;
+    bottom: 52%;
+    left: -32%;
+}
+.products-rgt p.para {
+    font-size: 40px;
+    line-height: 62px;
+}
+.prj-machine-img{
+    width: 90%;
+}
+.prj-machine-img-1{
+    width: 50%;
+}
+.prj-machine-img-2{
+    width: 50%;
+    margin-left: 20%;
+}
+.products-rgt{
+    padding-right: 5%;
+}
+.products-rgt h5 {
+    font-size: 62px;
+    line-height: 66px;
+    padding-top: 3%;
+}
+.products-rgt p:last-child {
+    font-size: 36px;
+    line-height: 60px;
+}
+.product-gear-icon p {
+    font-size: 38px;
+    padding-top: 5%;
+    margin-bottom: 10%;
+    line-height: 44px;
+}
+.btn-outline-success, .btn-outline-success-1 {
+    font-size: 24px;
+}
+.pressure-vessels-indicator {
+    bottom: 119% !important;
+}
+.column-pipe-indicator {
+    bottom: 78% !important;
+}
+}
+@media screen and (max-width:1920px){
+    .capabilities-details h1 {
+        font-size: 60px;
+        line-height: 50px;
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    .products-rgt p.para {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .products-rgt h5 {
+        font-size: 50px;
+        line-height: 60px;
+        padding-top: 3%;
+    }
+    .products-rgt p:last-child {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .product-gear-icon p {
+        font-size: 30px;
+        padding-top: 5%;
+        margin-bottom: 10%;
+        line-height: 36px;
+    }
+    .btn-outline-success, .btn-outline-success-1 {
+        font-size: 22px;
+    }
+    .pressure-vessels-indicator {
+        bottom: 105% !important;
+    }
+    .column-pipe-indicator {
+        bottom: 65% !important;
+    }
+}
+@media screen and (max-width:1600px){
+    .capabilities-details h1 {
+        font-size: 52px;
+        line-height: 50px;
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    .products-rgt h5 {
+        font-size: 44px;
+        line-height: 50px;
+        padding-top: 3%;
+    }
+    .products-rgt p:last-child {
+        font-size: 26px;
+        line-height: 42px;
+    }
+    .product-gear-icon p {
+        font-size: 26px;
+        padding-top: 5%;
+        margin-bottom: 10%;
+        line-height: 32px;
+    }
+    .btn-outline-success, .btn-outline-success-1 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1440px){
+    .capabilities-details h1 {
+        font-size: 48px;
+        line-height: 50px;
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    .products-rgt p.para{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .products-rgt h5 {
+        font-size: 42px;
+        line-height: 48px;
+        padding-top: 3%;
+    }
+    .products-rgt p:last-child {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .product-gear-icon p {
+        font-size: 24px;
+        padding-top: 5%;
+        margin-bottom: 10%;
+        line-height: 30px;
+    }
+    .btn-outline-success, .btn-outline-success-1 {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1366px){
+    .capabilities-details h1 {
+        font-size: 44px;
+        line-height: 50px;
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    .products-rgt p.para {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .products-rgt h5 {
+        font-size: 38px;
+        line-height: 42px;
+        padding-top: 3%;
+    }
+    .products-rgt p:last-child {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .product-gear-icon p {
+        font-size: 22px;
+        padding-top: 5%;
+        margin-bottom: 10%;
+        line-height: 28px;
+    }
+    .btn-outline-success, .btn-outline-success-1 {
+        font-size: 17px;
+    }
+    .column-pipe-indicator {
+        bottom: 61% !important;
+    }
+}
+@media screen and (max-width:1280px) and (max-height:1024px){
+    .capabilities-details h1 {
+        font-size: 42px;
+        line-height: 50px;
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    .products-rgt p.para {
+        font-size: 21px;
+        line-height: 36px;
+    }
+    .products-rgt h5 {
+        font-size: 34px;
+        line-height: 38px;
+        padding-top: 3%;
+    }
+    .products-rgt p:last-child {
+        font-size: 21px;
+        line-height: 34px;
+    }
+    .product-gear-icon p {
+        font-size: 21px;
+        padding-top: 7%;
+        margin-bottom: 10%;
+        line-height: 24px;
+    }
+    .btn-outline-success, .btn-outline-success-1 {
+        font-size: 16px;
+    }
+    .column-pipe-indicator {
+        bottom: 65% !important;
+    }
+}
+@media screen and (max-height: 778px) and (max-width: 1280px){
+    .capabilities-details h1 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    .products-rgt p.para{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .products-rgt h5 {
+        font-size: 32px;
+        line-height: 36px;
+        padding-top: 3%;
+    }
+    .products-rgt p:last-child {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .product-gear-icon p {
+        font-size: 20px;
+        padding-top: 8%;
+        margin-bottom: 10%;
+        line-height: 22px;
+    }
+    .btn-outline-success, .btn-outline-success-1 {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1280px) and (max-height: 610px){
+    .products-rgt p.para {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .products-rgt p:last-child {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .product-gear-icon p {
+        font-size: 18px;
+        padding-top: 8%;
+        margin-bottom: 10%;
+        line-height: 20px;
+    }
+    .btn-outline-success, .btn-outline-success-1 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1240px){
+    .capabilities-details h1 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+    .products-rgt p.para {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .products-rgt h5 {
+        font-size: 32px;
+        line-height: 34px;
+        padding-top: 3%;
+    }
+    .products-rgt p:last-child {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .product-gear-icon p {
+        font-size: 20px;
+        padding-top: 7%;
+        margin-bottom: 10%;
+        line-height: 22px;
+    }
+    .btn-outline-success, .btn-outline-success-1 {
+        font-size: 15px;
+    }
+    .column-pipe-indicator {
+        bottom: 62% !important;
+    }
+}
+@media screen and (max-width: 1024px){
+    .capabilities-details h1 {
+        font-size: 36px;
+        line-height: 49px;
+        padding-top: 6%;
+        padding-bottom: 8%;
+    }
+    .products-rgt h5 {
+        font-size: 30px;
+        line-height: 32px;
+        padding-top: 3%;
+    }
+    .product-gear-icon p {
+        font-size: 18px;
+        padding-top: 7%;
+        margin-bottom: 10%;
+        line-height: 20px;
+    }
+    .btn-outline-success, .btn-outline-success-1 {
+        font-size: 14px;
+    }
+    .pressure-vessels-indicator {
+        bottom: 90% !important;
+    }
+    .column-pipe-indicator li, .motor-stool-indicator li {
+        margin-left: 8%;
+    }
+}
+@media screen and (max-width: 800px){
+    .capabilities-details h1 {
+        font-size: 30px;
+        line-height: 49px;
+        padding-top: 6%;
+        padding-bottom: 8%;
+    }
+    .products-rgt p.para {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .products-rgt h5 {
+        font-size: 24px;
+        line-height: 30px;
+        padding-top: 3%;
+    }
+    .products-rgt p:last-child {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .product-gear-icon p {
+        font-size: 16px;
+        padding-top: 10%;
+        margin-bottom: 10%;
+        line-height: 18px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .capabilities-details h1 {
+        font-size: 28px;
+        line-height: 49px;
+        padding-top: 6%;
+        padding-bottom: 8%;
+    }
+    .products-rgt p.para {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .products-rgt h5 {
+        font-size: 24px;
+        line-height: 26px;
+        padding-top: 3%;
+    }
+    .products-rgt p:last-child {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .product-gear-icon p {
+        font-size: 15px;
+        padding-top: 10%;
+        margin-bottom: 10%;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 480px){
+    .navbar {
+        padding: 5% 5%;
+    }
+.product-detail{
+    background-image: url("../images/product/bg-mob.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10% 5%;
+}
+.prj-machine-img {
+    width: 90%;
+    margin-bottom: 5%;
+}
+.capabilities-details h1 {
+    font-size: 38px;
+    line-height: 49px;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+.products-rgt {
+    padding-right: 0%;
+}
+.product-detail-slider{
+    margin-bottom: 10%;
+}
+.products-rgt p.para, .products-rgt p:last-child {
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 5%;
+}
+.products-rgt h5 {
+    font-size: 32px;
+    line-height: 34px;
+    padding-top: 3%;
+}
+.product-gear-icon{
+    text-align: center;
+    padding-top: 5%;
+}
+.product-gear-icon p {
+    font-size: 16px;
+    padding-top: 10%;
+    margin-bottom: 10%;
+    line-height: 22px;
+}
+.btn-outline-success, .btn-outline-success-1 {
+    font-size: 15px;
+}
+.btn-outline-success-1 {
+    margin-left: 10%;
+}
+.btn-outline-success{
+    margin-left: -20%;
+}
+.pressure-vessels-indicator {
+    top: 95% !important;
+    right: 36% !important;
+    left: 10% !important;
+}
+.prj-machine-img-1 {
+    width: 50%;
+    margin-bottom: 10%;
+}
+.prj-machine-img-2 {
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+.column-pipe-indicator {
+    top: 96% !important;
+    left: 5% !important;
+    right: 26% !important;
+}
+.motor-stool-indicator {
+    top: 96% !important;
+    left: 5% !important;
+    right: 33% !important;
+}
+
+}
+@media screen and (max-width: 414px) and (max-height: 896px){
+    .capabilities-details h1 {
+        font-size: 32px;
+        line-height: 49px;
+    }
+    .capabilities-indicators {
+        right: 16% !important;
+        left: 10% !important;
+    }
+    .base-frame-indicators {
+        top: 95% !important;
+        right: 8% !important;
+        left: 5% !important;
+    }
+    .products-rgt h5 {
+        font-size: 28px;
+        line-height: 30px;
+        padding-top: 3%;
+    }
+    .products-rgt p.para, .products-rgt p:last-child {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .btn-outline-success, .btn-outline-success-1{
+        padding: 7% 6%;
+        font-size: 14px;
+    }
+    .btn-outline-success-1{
+        padding: 8% 7%;
+    }
+    .nxt-prv-btn {
+        padding: 5% 5%;
+    }
+    .column-pipe-indicator {
+        right: 25% !important;
+        left: 10% !important;
+    }
+    .motor-stool-indicator {
+        top: 96% !important;
+        left: 5% !important;
+        right: 32% !important;
+    }
+    .pressure-vessels-indicator {
+        top: 95% !important;
+        right: 36% !important;
+        left: 10% !important;
+    }
+    
+}
+@media screen and (max-width: 414px) and (max-height: 736px){
+    .capabilities-indicators {
+        right: 23% !important;
+        left: 0% !important;
+    }
+    .base-frame-indicators {
+        top: 95% !important;
+        right: 20% !important;
+        left: 1% !important;
+    }
+    .column-pipe-indicator {
+        top: 96% !important;
+        left: 0% !important;
+        right: 31% !important;
+    }
+    .motor-stool-indicator {
+        top: 96% !important;
+        left: -30% !important;
+        right: 35% !important;
+    }
+    .pressure-vessels-indicator {
+        top: 95% !important;
+        right: 36% !important;
+        left: -60% !important;
+    }
+    .bogie-frame-indicators {
+        right: 31% !important;
+        left: 0% !important;
+    }
+}
+@media screen and (max-width: 412px){
+    .products-rgt p.para, .products-rgt p:last-child {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+@media screen and (max-width: 393px){
+    .capabilities-details h1 {
+        font-size: 30px;
+        line-height: 49px;
+    }
+    .products-rgt p.para, .products-rgt p:last-child {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .products-rgt h5 {
+        font-size: 26px;
+        line-height: 28px;
+        padding-top: 3%;
+    }
+    .product-gear-icon p {
+        font-size: 15px;
+        padding-top: 10%;
+        margin-bottom: 10%;
+        line-height: 20px;
+    }
+    .btn-outline-success, .btn-outline-success-1 {
+        font-size: 12px;
+    }
+
+
+}
+@media screen and (max-width: 375px) and (max-height: 812px){
+    .motor-stool-indicator li {
+        margin-left: 17%;
+    }
+    .motor-stool-indicator {
+        top: 96% !important;
+        left: 5% !important;
+        right: 28% !important;
+    }
+    .capabilities-indicators li, .capabilities-indicators .active {
+        height: 18px !important;
+        width: 18px !important;
+        margin-left: 10%;
+    }
+    .column-pipe-indicator {
+        right: 20% !important;
+        left: 10% !important;
+    }
+    .bogie-frame-indicators {
+        right: 21% !important;
+        left: 0% !important;
+    }
+}
+@media screen and (max-width: 375px) and (max-height: 667px){
+    .products-rgt p.para, .products-rgt p:last-child {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .products-rgt h5 {
+        font-size: 24px;
+        line-height: 26px;
+        padding-top: 3%;
+    }
+    .capabilities-indicators {
+        right: 18% !important;
+        left: 2% !important;
+    }
+    .pressure-vessels-indicator li.active {
+        margin-left: 10%;
+    }
+    .pressure-vessels-indicator {
+        top: 95% !important;
+        right: 38% !important;
+        left: -60% !important;
+    }
+    .base-frame-indicators {
+        top: 95% !important;
+        right: 20% !important;
+        left: 1% !important;
+    }
+    .column-pipe-indicator {
+        top: 96% !important;
+        left: -60% !important;
+        right: 25% !important;
+    }
+    .column-pipe-indicator li, .motor-stool-indicator li {
+        margin-left: 11%;
+    }
+    .motor-stool-indicator li {
+        margin-left: 18%;
+    }
+    .motor-stool-indicator {
+        top: 96% !important;
+        left: -60% !important;
+        right: 33% !important;
+    }
+    .bogie-frame-indicators {
+        right: 31% !important;
+        left: 0% !important;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .capabilities-details h1 {
+        font-size: 28px;
+        line-height: 49px;
+    }
+    .products-rgt p.para, .products-rgt p:last-child {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .products-rgt h5 {
+        font-size: 22px;
+        line-height: 24px;
+        padding-top: 3%;
+    }
+    .product-gear-icon p {
+        font-size: 14px;
+        padding-top: 10%;
+        margin-bottom: 20%;
+        line-height: 17px;
+    }
+    .btn-outline-success, .btn-outline-success-1 {
+        padding: 5% 5%;
+        font-size: 12px;
+    }
+    .btn-outline-success-1 {
+        padding: 6% 6%;
+    }
+    .capabilities-indicators {
+        right: 21% !important;
+        left: 2% !important;
+    }
+    .pressure-vessels-indicator {
+        top: 95% !important;
+        right: 36% !important;
+        left: -60% !important;
+    }
+    .base-frame-indicators {
+        top: 95% !important;
+        right: 16% !important;
+        left: 1% !important;
+    }
+    .column-pipe-indicator {
+        top: 96% !important;
+        left: -60% !important;
+        right: 26% !important;
+    }
+    .motor-stool-indicator {
+        top: 96% !important;
+        left: -60% !important;
+        right: 33% !important;
+    }
+    .bogie-frame-indicators {
+        right: 30% !important;
+        left: 0% !important;
+    }
+}
+@media screen and (max-width: 320px){
+    .capabilities-details h1 {
+        font-size: 24px;
+        line-height: 49px;
+    }
+    .products-rgt p.para, .products-rgt p:last-child {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .products-rgt h5 {
+        font-size: 20px;
+        line-height: 22px;
+        padding-top: 3%;
+    }
+    .capabilities-indicators {
+        right: 26% !important;
+        left: 2% !important;
+    }
+    .product-gear-icon p {
+        font-size: 13px;
+        padding-top: 10%;
+        margin-bottom: 20%;
+        line-height: 15px;
+    }
+    .btn-outline-success-1 {
+        margin-left: 10%;
+    }
+    .btn-outline-success, .btn-outline-success-1 {
+        font-size: 11px;
+    }
+    .pressure-vessels-indicator {
+        top: 95% !important;
+        right: 36% !important;
+        left: 10% !important;
+    }
+    .base-frame-indicators {
+        top: 95% !important;
+        right: 15% !important;
+        left: 1% !important;
+    }
+    .motor-stool-indicator {
+        top: 96% !important;
+        left: 2% !important;
+        right: 31% !important;
+    }
+
+}
+

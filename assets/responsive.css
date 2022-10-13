@@ -1,0 +1,1969 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 2560px){
+    .img-logo {
+        width: 100%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 30px;
+        padding: 20px 20px;
+    }
+    .navbar-nav{
+        margin-left: auto;
+    }
+    .dropdown-item {
+        font-size: 24px;
+    }
+    .side-navigation{
+        margin-left: 5%;
+    }
+    .sidenav a{
+        padding: 10px 10px 10px 30px;
+        font-size: 24px;
+    }
+    .carousel-caption h1 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .carousel-caption p {
+        font-size: 38px;
+        line-height: 44px;
+        padding-top: 8%;
+    }
+    .carousel-caption {
+        right: 0%;
+        top: 30%;
+        left: 65%;
+    }
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 26px;
+        padding: 15px 34px;
+        margin-top: 4%;
+    }
+    .btn-outline-primary{
+        margin-top: 8%;
+    }
+    .carousel-indicators li {
+        height: 7px;
+        width: 80px;
+        margin-left: 0.5%;
+    }
+    .carousel-indicators .active{
+        height: 8.5px;
+        margin-top: -1px;
+    }
+    .carousel-indicators {
+        bottom: 50px;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 32px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p {
+        font-size: 38px;
+        padding-top: 3%;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 44px;
+        line-height: 60px;
+        padding-top: 3%;
+    }
+    .superscripted, .superscripted-1 {
+        font-size: 40px;
+    }
+    .counting-details h5 {
+        font-size: 54px;
+    }
+    .social-icon {
+        padding-top: 4%;
+    }
+    .products-rgt h6 {
+        font-size: 30px;
+        padding-top: 3%;
+        line-height: 44px;
+    }
+    .product-overlay-details p {
+        font-size: 34px;
+    }
+    .capabilities h2 {
+        font-size: 334px;
+        top: 3%;
+    }
+    .capabilities-rgt{
+        padding-top: 2%;
+    }
+    .capabilities {
+        padding: 8% 5%;
+    }
+    .btm-line-2 {
+        margin-top: 0%;
+    }
+    .capabilities-rgt p {
+        line-height: 52px;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3{
+        font-size: 38px;
+        margin-bottom: -7%;
+        padding-top: 3%;
+    }
+    .solution .capabilities-caption h3{
+        margin-bottom: 0% !important;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 30px;
+    }
+    .machine-img {
+        margin-top: 3%;
+    }
+    .capabilities-indicators{
+        right: 55%;
+        bottom: 52%;
+        left: -20%;
+    }
+    .capabilities-indicators li{
+        height: 30px;
+        width: 30px;
+        margin-left: auto;
+    }
+    .capabilities-indicators .active{
+        height: 30px;
+        width: 30px;
+    }
+    .connect p {
+        padding-top: 10%;
+        font-size: 32px;
+    }
+    .connect h2 {
+        font-size: 68px;
+        padding-top: 10%;
+    }
+    .section-a h5, .section-b h5, .social-icon ul h5 {
+        font-size: 26px;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 24px;
+    }
+    .social-svg {
+        width: 50%;
+        padding-left: 0%;
+    }
+    .map-svg {
+        margin-top: -24%;
+        margin-left: 20%;
+    }
+    .company-address{
+        padding-top: 2%;
+    }
+    .company-address li a, .company-address li { 
+        font-size: 24px;
+    }
+    .btm-line-1 {
+        width: 8%;
+    }
+    .footer hr {
+        margin-top: 3%;
+    }
+    
+    
+}
+@media screen and (max-width: 1920px){
+    .img-logo {
+        width: 95%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 22px;
+        padding: 15px 15px;
+    }
+    .dropdown-item {
+        font-size: 22px;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 24px;
+        font-size: 22px;
+    }
+    .carousel-caption h1 {
+        font-size: 52px;
+        line-height: 60px;
+    }
+    .carousel-caption p {
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 7%;
+    }
+    
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 24px;
+        padding: 14px 30px;
+        margin-top: 4%;
+    }
+    .btn-outline-primary {
+        margin-top: 10%;
+    }
+    .carousel-indicators li {
+        height: 5px;
+        width: 70px;
+        margin-left: 0.5%;
+    }
+    .carousel-indicators .active {
+        height: 7.5px;
+        margin-top: -1px;
+    }
+    .carousel-caption {
+        top: 26%;
+    }
+    .carousel-indicators {
+        bottom: 40px;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 24px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .client-lft p, .counting-details p{
+        font-size: 32px;
+        padding-top: 3%;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 42px;
+        line-height: 50px;
+        padding-top: 3%;
+    }
+    .counting-details h5 {
+        font-size: 48px;
+    }
+    .products-rgt h6 {
+        font-size: 28px;
+        padding-top: 3%;
+        line-height: 46px;
+    }
+    .product-overlay-details p {
+        font-size: 24px;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 32px;
+        margin-bottom: -6%;
+    }
+    .machine-img {
+        margin-top: 9%;
+    }
+    .capabilities {
+        padding: 7% 5%;
+    }
+    .capabilities-indicators li{
+        height: 30px;
+        width: 30px;
+        margin-left: auto;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 24px;
+    }
+    .capabilities-indicators .active{
+        height: 30px;
+        width: 30px;
+    }
+    .capabilities-indicators {
+        right: 55%;
+        bottom: 52%;
+        left: -20%;
+    }
+    .capabilities-rgt p {
+        line-height: 46px;
+        font-size: 28px;
+    }
+    .capabilities-slider .capabilities-caption{
+        bottom: 26%;
+    }
+    .capabilities h2 {
+        font-size: 255px;
+        top: 3%;
+    }
+    .connect h2 {
+        font-size: 64px;
+        padding-top: 10%;
+    }
+     .connect p {
+        font-size: 24px;
+        padding-top: 10%;
+    }
+    .section-a h5, .section-b h5, .social-icon ul h5 {
+        font-size: 24px;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 22px;
+    }
+    .company-address li a, .company-address li {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 1600px){
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 20px;
+        padding: 12px 12px;
+    }
+    .img-logo {
+        width: 80%;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 30px;
+        font-size: 18px;
+    }
+    .dropdown-item {
+        font-size: 18px;
+    }
+    .carousel-caption h1 {
+        font-size: 48px;
+        line-height: 52px;
+        padding-right: 1%;
+    }
+    .carousel-caption p {
+        font-size: 26px;
+        line-height: 36px;
+        padding-top: 7%;
+    }
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 22px;
+        padding: 12px 28px;
+        margin-top: 4%;
+    }
+    .btn-outline-primary {
+        margin-top: 10%;
+    }
+    .carousel-caption {
+        top: 30%;
+    }
+    .carousel-indicators li {
+        height: 3px;
+        width: 60px;
+        margin-left: 0.5%;
+    }
+    .carousel-indicators .active {
+        height: 4.5px;
+        margin-top: -1px;
+        width: 60px;
+    }
+    .carousel-indicators .active {
+        height: 5.5px;
+        margin-top: -1px;
+    }
+    .carousel-indicators {
+        bottom: 30px;
+        right: 8%;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 21px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p {
+        font-size: 28px;
+        padding-top: 3%;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 36px;
+        line-height: 48px;
+        padding-top: 3%;
+    }
+    .counting-details h5 {
+        font-size: 44px;
+    }
+    .products-rgt h6 {
+        font-size: 26px;
+        padding-top: 3%;
+        line-height: 40px;
+    }
+    .product-overlay-details p {
+        font-size: 22px;
+    }
+    .capabilities h2 {
+        font-size: 212px;
+        top: 5%;
+    }
+    .capabilities-rgt p {
+        line-height: 38px;
+        font-size: 26px;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 28px;
+        margin-bottom: -6%;
+        margin-top: 1%;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 22px;
+    }
+    .capabilities-indicators li{
+        height: 25px;
+        width: 25px;
+        margin-left: auto;
+    }
+    .capabilities-indicators .active{
+        height: 25px;
+        width: 25px;
+    }
+    .capabilities-indicators {
+        right: 55%;
+        bottom: 44%;
+        left: -20%;
+    }
+    .machine-img {
+        margin-top: 9%;
+    }
+    .connect p {
+        font-size: 20px;
+        padding-top: 10%;
+    }
+    .connect h2 {
+        font-size: 62px;
+        padding-top: 10%;
+    }
+    .section-a h5, .section-b h5, .social-icon ul h5 {
+        font-size: 20px;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 20px;
+    }
+    .section-a {
+        width: 20%;
+    }
+    .map-svg {
+        margin-top: -70%;
+        margin-left: 20%;
+    }
+    .company-address li a, .company-address li {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1440px){
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+    .img-logo {
+        width: 70%;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 30px;
+        font-size: 16px;
+    }
+    .dropdown-item {
+        font-size: 15px;
+    }
+    .carousel-caption h1 {
+        font-size: 48px;
+        line-height: 50px;
+        padding-right: 1%;
+    }
+    .carousel-caption p {
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 7%;
+    }
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 18px;
+        padding: 12px 25px;
+        margin-top: 4%;
+    }
+    .btn-outline-primary {
+        margin-top: 10%;
+    }
+    .carousel-indicators li {
+        height: 3px;
+        width: 50px;
+        margin-left: 0.5%;
+    }
+    .carousel-indicators .active {
+        height: 4.5px;
+        margin-top: -1px;
+        width: 50px;
+    }
+    .carousel-indicators {
+        bottom: 30px;
+        right: 8%;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 20px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p {
+        font-size: 26px;
+        padding-top: 3%;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 32px;
+        line-height: 42px;
+        padding-top: 3%;
+    }
+    .superscripted, .superscripted-1 {
+        font-size: 38px;
+    }
+    .counting-details h5 {
+        font-size: 40px;
+    }
+    .products-rgt h6 {
+        font-size: 23px;
+        padding-top: 3%;
+        line-height: 32px;
+    }
+    .product-overlay-details p {
+        font-size: 20px;
+    }
+    .capabilities-indicators li{
+        height: 25px;
+        width: 25px;
+        margin-left: auto;
+    }
+    .capabilities-indicators .active{
+        height: 25px;
+        width: 25px;
+    }
+    .capabilities-indicators {
+        right: 55%;
+        bottom: 48%;
+        left: -20%;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 26px;
+        margin-bottom: -5%;
+        margin-top: 1%;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 21px;
+    }
+    .capabilities {
+        padding: 6% 5%;
+    }
+    .capabilities-rgt {
+        padding-top: 3%;
+    } 
+    .machine-img {
+        margin-top: 18%;
+    }
+    .capabilities-rgt p {
+        line-height: 34px;
+        font-size: 24px;
+    }
+    .connect p {
+        font-size: 18px;
+        padding-top: 10%;
+    }
+    .connect h2 {
+        font-size: 58px;
+        padding-top: 10%;
+    }
+    .section-a h5, .section-b h5, .social-icon ul h5 {
+        font-size: 18px;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 18px;
+    }
+    .company-address li a, .company-address li {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1366px){
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    .dropdown-item {
+        font-size: 14px;
+    }
+    .img-logo {
+        width: 65%;
+    }
+    .carousel-caption {
+        top: 28%;
+    }
+    .carousel-caption h1 {
+        font-size: 40px;
+        line-height: 42px;
+        padding-right: 4%;
+    }
+    .carousel-caption p {
+        font-size: 22px;
+        line-height: 30px;
+        padding-top: 5%;
+    }
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 16px;
+        padding: 12px 25px;
+        margin-top: 5%;
+    }
+    .btn-outline-primary {
+        margin-top: 10%;
+    }
+    .carousel-indicators li {
+        height: 2px;
+        width: 40px;
+        margin-left: 0.5%;
+    }
+    .carousel-indicators .active {
+        height: 3.5px;
+        width: 40px;
+        margin-top: -1px;
+    }
+    .carousel-indicators {
+        bottom: 30px;
+        right: 10%;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 19px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p {
+        font-size: 24px;
+        padding-top: 3%;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 3%;
+    }
+    .superscripted, .superscripted-1 {
+        font-size: 36px;
+    }
+    .counting-details h5 {
+        font-size: 38px;
+    }
+    .products-rgt h6 {
+        font-size: 21px;
+        padding-top: 3%;
+        line-height: 32px;
+    }
+    .product-overlay-details p {
+        font-size: 18px;
+    }
+    .capabilities-rgt p {
+        line-height: 30px;
+        font-size: 22px;
+    }
+    .capabilities-indicators li{
+        height: 25px;
+        width: 25px;
+        margin-left: auto;
+    }
+    .capabilities-indicators .active{
+        height: 25px;
+        width: 25px;
+    }
+    .capabilities-indicators {
+        right: 55%;
+        bottom: 45%;
+        left: -20%;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 24px;
+        margin-bottom: -4%;
+        margin-top: 1%;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 19px;
+    }
+    .machine-img {
+        margin-top: 11%;
+    }
+    .capabilities-rgt {
+        padding-top: 8%;
+    }
+    .capabilities {
+        padding: 5% 5%;
+    }
+    .machine-img {
+        margin-top: 18%;
+        width: 30%;
+    }
+    .connect p {
+        font-size: 16px;
+        padding-top: 10%;
+    }
+    .connect h2 {
+        font-size: 54px;
+        padding-top: 10%;
+    }
+    .section-a h5, .section-b h5, .social-icon ul h5 {
+        font-size: 16px;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 16px;
+    }
+    .company-address li a, .company-address li {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1280px) and (max-height: 1024px){
+    .navbar-brand {
+        margin-right: -5rem;
+    }
+    .carousel-caption h1 {
+        font-size: 38px;
+        line-height: 40px;
+        padding-right: 4%;
+    }
+    .carousel-caption p {
+        font-size: 20px;
+        line-height: 28px;
+        padding-top: 7%;
+    }
+    .carousel-indicators {
+        bottom: 30px;
+        right: 9%;
+    }
+    .capabilities-indicators li{
+        height: 20px;
+        width: 20px;
+        margin-left: auto;
+    }
+    .capabilities-indicators .active{
+        height: 21px;
+        width: 21px;
+    }
+    .capabilities-indicators {
+        right: 55%;
+        bottom: 46%;
+        left: -20%;
+    }
+    .machine-img {
+        margin-top: 15%;
+        width: 34%;
+    }
+    .section-a p a, .section-b p a{
+        margin-bottom: -5%;
+    }
+    .capabilities-rgt p {
+        line-height: 28px;
+        font-size: 21px;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 26px;
+        margin-bottom: -5%;
+        margin-top: 1%;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1280px) and (max-height: 778px){
+    .product-overlay-details p {
+        font-size: 16px;
+    }
+    .dropdown-item {
+        font-size: 13px;
+    }
+    .carousel-indicators li {
+        height: 1.5px;
+        width: 40px;
+        margin-left: 0.5%;
+    }
+    .carousel-indicators .active {
+        height: 2.5px;
+        width: 40px;
+        margin-top: -1px;
+    }
+    .capabilities-indicators li{
+        height: 20px;
+        width: 20px;
+        margin-left: auto;
+    }
+    .capabilities-indicators .active{
+        height: 21px;
+        width: 21px;
+    }
+    .capabilities-indicators {
+        right: 55%;
+        bottom: 46%;
+        left: -20%;
+    }
+    .capabilities-rgt p {
+        line-height: 28px;
+        font-size: 20px;
+    }
+    .superscripted, .superscripted-1 {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 1280px) and (max-height: 610px){
+    .side-navigation {
+        margin-left: 2%;
+    }
+    .carousel-caption p {
+        font-size: 18px;
+        line-height: 24px;
+        padding-top: 5%;
+    }
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 14px;
+        padding: 12px 25px;
+        margin-top: 4%;
+    }
+    .btn-outline-primary{
+        margin-top: 8%;
+    }
+    .carousel-indicators {
+        bottom: 20px;
+        right: 9%;
+    }
+    .carousel-caption {
+        top: 24%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 15px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p {
+        font-size: 20px;
+        padding-top: 3%;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 26px;
+        line-height: 34px;
+        padding-top: 3%;
+    }
+    .counting-details h5 {
+        font-size: 34px;
+    }
+    .products-rgt h6 {
+        font-size: 16px;
+        padding-top: 2%;
+        line-height: 24px;
+    }
+    .product-overlay-details p {
+        font-size: 16px;
+    }
+    .capabilities-indicators li{
+        height: 20px;
+        width: 20px;
+        margin-left: auto;
+    }
+    .capabilities-indicators .active{
+        height: 20px;
+        width: 20px;
+    }
+    .capabilities-indicators {
+        right: 55%;
+        bottom: 48%;
+        left: -20%;
+    }
+    .capabilities-rgt p {
+        line-height: 24px;
+        font-size: 18px;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 20px;
+        margin-bottom: -4%;
+        margin-top: 1%;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 15px;
+    }
+    .machine-img {
+        margin-top: 14%;
+        width: 30%;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1240px){
+    .carousel-caption h1 {
+        font-size: 36px;
+        line-height: 40px;
+        padding-right: 4%;
+    }
+    .carousel-caption p {
+        font-size: 18px;
+        line-height: 26px;
+        padding-top: 5%;
+    }
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 14px;
+        padding: 12px 25px;
+        margin-top: 4%;
+    }
+    .btn-outline-primary {
+        margin-top: 10%;
+    }
+    .carousel-caption {
+        top: 30%;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 16px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p {
+        font-size: 20px;
+        padding-top: 3%;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 26px;
+        line-height: 36px;
+        padding-top: 3%;
+    }
+    .counting-details h5 {
+        font-size: 36px;
+    }
+    .products-rgt h6 {
+        font-size: 19px;
+        padding-top: 3%;
+        line-height: 30px;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 22px;
+        margin-bottom: -4%;
+        margin-top: 1%;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 18px;
+    }
+    .capabilities-rgt p {
+        line-height: 26px;
+        font-size: 19px;
+    }
+    .machine-img {
+        margin-top: 12%;
+        width: 32%;
+    }
+    .connect p {
+        font-size: 14px;
+        padding-top: 10%;
+    }
+    .connect h2 {
+        font-size: 50px;
+        padding-top: 10%;
+    }
+}
+@media screen and (max-width: 1024px) and (max-height: 1366px){
+    .banner-slider {
+        height: 100%;
+    }
+    .img-logo {
+        width: 80%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+    .navbar-brand{
+        width: 30%;
+    }
+    .carousel-caption h1 {
+        font-size: 28px;
+        line-height: 34px;
+        padding-right: 10%;
+    }
+    .carousel-caption {
+        top: 22%;
+    }
+    .carousel-indicators {
+        bottom: 30px;
+        right: 7%;
+    }
+    .capabilities-indicators {
+        right: 55%;
+        bottom: 46%;
+        left: -20%;
+    }
+    .machine-img {
+        margin-top: 25%;
+        width: 32%;
+    }
+    .capabilities-rgt p {
+        line-height: 24px;
+    }
+    .capabilities {
+        padding: 3% 5%;
+    }
+    .product-overlay-details p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1024px) and (max-height: 768px){
+    .navbar-brand {
+        margin-right: 0rem;
+        width: 30%;
+    }
+    .img-logo {
+        width: 80%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+    .side-navigation {
+        margin-left: 4%;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 30px;
+        font-size: 14px;
+    }
+    .carousel-caption h1 {
+        font-size: 32px;
+        line-height: 36px;
+        padding-right: 4%;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 2%;
+    }
+    .carousel-caption {
+        top: 23%;
+    }
+    .carousel-indicators {
+        bottom: 40px;
+        right: 7%;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 16px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p  {
+        font-size: 20px;
+        padding-top: 3%;                 
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 24px;
+        line-height: 34px;
+        padding-top: 3%;
+    }
+    .counting-details h5 {
+        font-size: 32px;
+    }
+    .products-rgt h6 {
+        font-size: 17px;
+        padding-top: 3%;
+        line-height: 24px;
+    }
+    .product-overlay-details p {
+        font-size: 14px;
+    }
+    .capabilities-rgt p {
+        line-height: 26px;
+        font-size: 18px;
+    }
+    .capabilities-indicators li{
+        height: 20px;
+        width: 20px;
+        margin-left: auto;
+    }
+    .capabilities-indicators .active{
+        height: 20px;
+        width: 20px;
+    }
+    .capabilities-indicators {
+        right: 55%;
+        bottom: 38%;
+        left: -20%;
+    }
+    .machine-img {
+        margin-top: 25%;
+        width: 30%;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 20px;
+        margin-bottom: -2%;
+        margin-top: 1%;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 16px;
+    }
+    .connect p {
+        font-size: 12px;
+        padding-top: 10%;
+    }
+    .connect h2 {
+        font-size: 46px;
+        padding-top: 10%;
+    }
+    .section-a h5, .section-b h5, .social-icon ul h5 {
+        font-size: 14px;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 14px;
+    }
+    .company-address li a, .company-address li {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 800px){
+    .banner-slider {
+        height: 100%;
+    }
+    .navbar-brand {
+        margin-right: 0rem;
+        width: 35%;
+    }
+    .img-logo {
+        width: 100%;
+    }
+    .carousel-caption h1 {
+        font-size: 22px;
+        line-height: 26px;
+        padding-right: 9%;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 2%;
+    }
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 14px;
+        padding: 5px 15px;
+        margin-top: 4%;
+    }
+    .carousel-indicators {
+        bottom: 30px;
+        right: 3%;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 16px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p {
+        font-size: 20px;
+        padding-top: 3%;
+    }
+    .superscripted, .superscripted-1 {
+        font-size: 30px;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 22px;
+        line-height: 32px;
+        padding-top: 3%;
+    }
+    .counting-details h5 {
+        font-size: 32px;
+    }
+    .products-rgt h6 {
+        font-size: 16px;
+        padding-top: 3%;
+        line-height: 20px;
+    }
+    .product-overlay-details p {
+        font-size: 12px;
+    }
+    .capabilities-indicators li{
+        height: 15px;
+        width: 15px;
+        margin-left: auto;
+    }
+    .capabilities-indicators .active{
+        height: 15px;
+        width: 15px;
+    }
+    .capabilities-indicators {
+        right: 55%;
+        bottom: 40%;
+        left: -20%;
+    }
+    .capabilities-rgt p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 20px;
+        margin-bottom: -2%;
+        margin-top: 1%;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 14px;
+        padding-right: 35%;
+    }
+    .machine-img {
+        margin-top: 30%;
+        width: 32%;
+    }
+    .connect p {
+        font-size: 12px;
+        padding-top: 10%;
+    }
+    .connect h2 {
+        font-size: 38px;
+        padding-top: 10%;
+    }
+    .section-a h5, .section-b h5, .social-icon ul h5 {
+        font-size: 14px;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 12px;
+        margin-bottom: -15%;
+    }
+    .section-a {
+        width: 30%;
+    }
+    .company-address li a, .company-address li {
+        font-size: 12px;
+    }
+    .social-svg {
+        width: 65%;
+        padding-left: 0%;
+    }
+    .social-icon ul:last-child {
+        padding-left: 15%;
+    }
+}
+@media screen and (max-width: 768px){
+    .carousel-caption h1 {
+        font-size: 20px;
+        line-height: 24px;
+        padding-right: 9%;
+    }
+    .carousel-caption h1 {
+        font-size: 20px;
+        line-height: 24px;
+        padding-right: 9%;
+    }
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 12px;
+        padding: 10px 20px;
+        margin-top: 4%;
+    }
+}
+@media screen and (max-width:480px){
+    .img-logo {
+        width: 190%;
+    }
+    /* .img-menu-icon {
+        width: 100%;
+    } */
+    
+    .navbar {
+        padding: 5% 5%;
+    }
+    .carousel-caption {
+        right: 0%;
+        top: 30%;
+        left: 0%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+    .carousel-caption h1 {
+        font-size: 46px;
+        line-height: 48px;
+        padding-right: 0%;
+        text-align: center;
+    }
+    .carousel-caption p {
+        font-size: 26px;
+        line-height: 36px;
+        padding-top: 7%;
+        text-align: center;
+    }
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 16px;
+        padding: 12px 25px;
+        margin-top: 10%;
+    }
+    .btn-outline-primary{
+        margin-top: 15%;
+    }
+    .carousel-indicators {
+        bottom: 30px;
+        right: 18%;
+    }
+    .carousel-indicators li {
+        height: 2px;
+        width: 50px;
+        margin-left: 0.5%;
+    }
+    .carousel-indicators .active {
+        height: 3.5px;
+        width: 50px;
+        margin-top: -1px;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 30px;
+        font-size: 18px;
+        color: #fff;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 17px;
+        margin-bottom: 0%;
+    }
+    .about-details h4{
+        padding-top: 0%;
+    }
+    .btm-line, .btm-line-1, .btm-line-2, .footer-btm-line {
+        width: 20%;
+        height: 5px;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p {
+        font-size: 20px;
+        padding-top: 3%;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 24px;
+        line-height: 34px;
+        padding-top: 3%;
+    }
+    .superscripted, .superscripted-1 {
+        font-size: 24px;
+    }
+    .superscripted-1 {
+        top: 0%;
+    }
+    .products-rgt h6 {
+        font-size: 20px;
+        padding-top: 3%;
+        line-height: 26px;
+    }
+    .products-rgt {
+        padding-left: 0%;
+    }
+    .margin-tp {
+        margin-top: 10%;
+    }
+    .capabilities-rgt {
+        padding-top: 5%;
+    }
+    .about-us {
+        padding: 10% 5%;
+    }
+    .counting-details h5 {
+        font-size: 36px;
+    }
+    .counting {
+        padding-top: 7%;
+    }
+    .products-rgt{
+        text-align: center;
+    }
+    .product-list{
+        margin-top: 10%;
+    }
+    .products {
+        padding: 10% 5%;
+    }
+    .product-overlay-details p {
+        font-size: 14px;
+    }
+    .prod-btm-line {
+        margin-top: -8%;
+        width: 20%;
+        height: 5px;
+    }
+    .product-overlay-details {
+        top: 60%;
+    }
+    .capabilities {
+        background-image: url("../images/homepage/capabilities-bg-mb.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .capabilities h2 {
+        font-size: 65px;
+        top: 5%;
+    }
+    .solution h2{
+        font-size: 88px;
+        top: 5%;
+    }
+    .capabilities-rgt{
+        text-align: center;
+    }
+    .capabilities-rgt h4{
+        padding-top: 0%;
+    }
+    .capabilities-rgt p {
+        line-height: 24px;
+        font-size: 19px;
+    }
+    .machine-img {
+        margin-top: 3%;
+        width: 28%;
+    }
+    .capabilities-indicators li{
+        height: 20px !important;
+        width: 20px !important;
+        margin-left: auto;
+    }
+    .capabilities-indicators .active{
+        height: 20px !important;
+        width: 20px !important;
+        margin-top: 0px !important;
+    }
+    .capabilities-indicators {
+        right: 18% !important;
+        bottom: 0% !important;
+        left: 15% !important;
+        transform: rotate(0deg);
+        top: 98%!important;
+    }
+    .capabilities-slider .capabilities-caption {
+        bottom: 26%;
+        text-align: center;
+        left: 0%;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 22px;
+        margin-bottom: -5%;
+        margin-top: 1%;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 18px;
+        padding-right: 0%;
+        text-align: inherit;
+        line-height: 25px;
+    }
+    .capabilities {
+        padding: 10% 5%;
+    }
+    .client-lft{
+        text-align: center;
+    }
+    .client-lft h3{
+        line-height: 30px;
+        margin-bottom: 10%;
+    }
+    .client {
+        padding: 10% 5%;
+    }
+    .footer {
+        background-image: url("../images/homepage/mob-footer.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 6%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    .connect h2 {
+        display: none;
+    }
+    .connect p {
+        font-size: 14px;
+        padding-top: 5%;
+    }
+    .footer-link{
+        padding-top: 5%;
+    }
+    .section-a h5, .section-b h5, .social-icon ul h5 {
+        font-size: 15px;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 14px;
+        margin-bottom: -10%;
+    }
+    .social-icon {
+        padding-top: 7%;
+    }
+    .footer hr {
+        margin-top: -10%;
+    }
+    .company-address {
+        padding-top: 12%;
+    }
+    .address-icon {
+        width: 5%;
+    }
+    .sub-footer p, .sub-footer p a{
+        font-family: 'rubikregular';
+        font-size: 12px;
+        color: #A5A5A5;
+    }
+    .sub-footer hr {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: -2%;
+    }
+    .footer-btm-line {
+        margin-top: 0%;
+    }
+    .social-svg {
+        width: 85%;
+        padding-left: 0%;
+    }
+    .social-icon li {
+        padding-left: 3%;
+    }
+}
+@media screen and (max-width: 414px) and (max-height: 896px){
+    .carousel-caption h1 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .carousel-indicators .active {
+        height: 2.5px;
+        width: 50px;
+        margin-top: -1px;
+    }
+    .carousel-caption p {
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 7%;
+    }
+    .side-navigation .dropdown-item{
+        color: #000 !important;
+    }
+    .carousel-indicators {
+        bottom: 30px;
+        right: 15%;
+    }
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 14px;
+        padding: 12px 25px;
+        margin-top: 10%;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 16px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p {
+        font-size: 20px;
+        padding-top: 3%;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 24px;
+        line-height: 30px;
+        padding-top: 3%;
+    }
+    .counting-details h5 {
+        font-size: 32px;
+    }
+    .products-rgt h6 {
+        font-size: 18px;
+        padding-top: 3%;
+        line-height: 30px;
+    }
+    .product-overlay-details p {
+        font-size: 12px;
+    }
+    .capabilities-rgt {
+        padding-top: 8%;
+    }
+    .capabilities-rgt p {
+        line-height: 26px;
+        font-size: 18px;
+    }
+    .capabilities h2 {
+        font-size: 56px;
+        top: 5%;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 20px;
+        margin-bottom: -5%;
+        margin-top: 1%;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 16px;
+        padding-right: 0%;
+        line-height: 25px;
+    }
+    .connect p {
+        font-size: 13px;
+        padding-top: 5%;
+    }
+    .section-a h5, .section-b h5, .social-icon ul h5 {
+        font-size: 12px;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 12px;
+        margin-bottom: -10%;
+    }
+    .company-address li a, .company-address li {
+        font-size: 10px;
+    }
+    .sub-footer p, .sub-footer p a {
+        font-size: 10px;
+    }
+    .solution h2 {
+        font-size: 75px;
+        top: 5%;
+    }
+}
+@media screen and (max-width: 414px) and (max-height: 736px){
+    .carousel-caption p {
+        font-size: 22px;
+        line-height: 28px;
+        padding-top: 7%;
+    }
+    .carousel-indicators {
+        bottom: 30px;
+        right: 15%;
+    }
+    .capabilities-indicators li {
+        height: 15px;
+        width: 15px;
+        margin-left: 3% !important;
+    }
+    .machine-img {
+        margin-top: 5%;
+        width: 28%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p {
+        font-size: 21px;
+        padding-top: 3%;
+    }
+    .products-rgt h6 {
+        font-size: 20px;
+        padding-top: 3%;
+        line-height: 30px;
+    }
+    .capabilities-rgt p {
+        line-height: 26px;
+        font-size: 18px;
+}
+}
+@media screen and (max-width: 412px){
+    .carousel-caption h1 {
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .carousel-caption p {
+        font-size: 22px;
+        line-height: 24px;
+        padding-top: 5%;
+    }
+    .btn-outline-primary {
+        margin-top: 10%;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 16px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p{
+        font-size: 20px;
+        padding-top: 3%;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 22px;
+        line-height: 28px;
+        padding-top: 3%;
+    }
+    .counting-details h5 {
+        font-size: 30px;
+    }
+    .capabilities-rgt p {
+        line-height: 24px;
+        font-size: 17px;
+    }
+    .capabilities h2 {
+        font-size: 55px;
+        top: 5%;
+    }
+    .capabilities .carousel-caption h3 {
+        font-size: 17px;
+        margin-bottom: -5%;
+        margin-top: 1%;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 15px;
+        padding-right: 0%;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width: 393px){
+    .capabilities h2 {
+        font-size: 53px;
+        top: 5%;
+    }
+    .footer hr {
+        margin-top: -10%;
+    }
+    .sub-footer hr {
+        margin-top: -2%;
+    }
+    .social-icon ul:last-child {
+        padding-left: 10%;
+    }
+    
+    .section-a p a, .section-b p a {
+        font-size: 12px;
+        margin-bottom: -15%;
+    }
+    .product-overlay-details p {
+        font-size: 10px;
+    }
+    .solution h2 {
+        font-size: 72px;
+        top: 5%;
+    }
+}
+
+@media screen and (max-width: 384px){
+    .carousel-caption h1 {
+        font-size: 34px;
+        line-height: 36px;
+    }
+    .carousel-caption p {
+        font-size: 20px;
+        line-height: 22px;
+        padding-top: 5%;
+    }
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 12px;
+        padding: 12px 25px;
+        margin-top: 5%;
+    }
+    .btn-outline-primary{
+        margin-top: 10%;
+    }
+    .capabilities h2 {
+        font-size: 52px;
+        top: 5%;
+    } 
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 14px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p {
+        font-size: 18px;
+        padding-top: 3%;
+    }
+    .superscripted, .superscripted-1 {
+        font-size: 20px;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 20px;
+        line-height: 26px;
+        padding-top: 3%;
+    }
+    .counting-details h5 {
+        font-size: 28px;
+    }
+    .products-rgt h6 {
+        font-size: 16px;
+        padding-top: 3%;
+        line-height: 24px;
+    }
+    .product-overlay-details p {
+        font-size: 10px;
+    }
+    .prod-btm-line {
+        margin-top: -10%;
+        width: 20%;
+        height: 3px;
+    }
+    .capabilities-rgt p {
+        line-height: 22px;
+        font-size: 16px;
+    }
+    .capabilities-indicators li, .capabilities-indicators .active {
+        height: 18px !important;
+        width: 18px !important;
+        margin-left: auto;
+    }
+    .capabilities-indicators {
+        right: 18% !important;
+        bottom: 0% !important;
+        left: 15% !important;
+        transform: rotate(0deg);
+        top: 95%!important;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 18px;
+        margin-bottom: -5%;
+        margin-top: 1%;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 14px;
+        padding-right: 0%;
+        line-height: 24px;
+    }
+    .connect p {
+        font-size: 10px;
+        padding-top: 3%;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 11px;
+        margin-bottom: -20%;
+    }
+    .company-address li a, .company-address li, .sub-footer p, .sub-footer p a{
+        font-size: 9px;
+    }
+    .solution h2 {
+        font-size: 70px;
+        top: 5%;
+    }
+}
+@media screen and (max-width: 375px){
+    .capabilities h2 {
+        font-size: 51px;
+        top: 5%;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 10px;
+        margin-bottom: -30%;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 15px;
+        margin-bottom: 0%;
+    }
+    .solution h2 {
+        font-size: 69px;
+        top: 5%;
+    }
+    
+}
+@media screen and (max-width: 360px){
+    .sidenav a {
+        padding: 8px 8px 8px 30px;
+        font-size: 16px;
+        color: #fff;
+    }
+    .carousel-caption p {
+        font-size: 18px;
+        line-height: 22px;
+        padding-top: 5%;
+    }
+    .carousel-indicators .active {
+        height: 2.5px;
+        width: 40px;
+        margin-top: 0px;
+    }
+    .carousel-indicators li {
+        height: 2px;
+        width: 40px;
+        margin-left: 0.5%;
+    }
+    .carousel-indicators {
+        bottom: 30px;
+        right: 17%;
+    }
+    .section-a p a, .section-b p a {
+        font-size: 9px;
+        margin-bottom: -35%;
+    }
+    .section-a h5, .section-b h5, .social-icon ul h5 {
+        font-size: 11px;
+    }
+    .footer hr {
+        margin-top: -10%;
+    }
+    .social-icon ul:last-child {
+        padding-left: 10%;
+    }
+    .sub-footer hr {
+        margin-top: -2%;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 14px;
+        margin-bottom: 0%;
+    }
+    .products-rgt h6 {
+        font-size: 14px;
+        padding-top: 3%;
+        line-height: 20px;
+    }
+    .capabilities h2 {
+        font-size: 48px;
+        top: 5%;
+    }
+    .capabilities-rgt p {
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .solution h2 {
+        font-size: 66px;
+        top: 5%;
+    }
+}
+@media screen and (max-width: 320px){
+    .carousel-caption h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 5%;
+    }
+    .btn-outline-primary, .btn-outline-secondary {
+        font-size: 11px;
+        padding: 12px 25px;
+        margin-top: 10%;
+    }
+    .about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4, .connect h6, .contact-heading h3 {
+        font-size: 13px;
+        margin-bottom: 0%;
+    }
+    .about-details p, .products-rgt p, .capabilities-rgt p, .client-lft p, .counting-details p {
+        font-size: 16px;
+        padding-top: 3%;
+    }
+    .about-details h3, .products-rgt h3, .capabilities-rgt h3, .client-lft h3 {
+        font-size: 18px;
+        line-height: 22px;
+        padding-top: 3%;
+    }
+    .counting-details h5 {
+        font-size: 26px;
+    }
+    .products-rgt h6 {
+        font-size: 13px;
+        padding-top: 3%;
+        line-height: 20px;
+    }
+    .product-overlay-details p {
+        font-size: 8px;
+    }
+    .capabilities-indicators li {
+        height: 10px;
+        width: 10px;
+        margin-left: 5% !important;
+    }
+    .capabilities-indicators li.active {
+        height: 10px;
+        width: 10px;
+    }
+    .capabilities-rgt p {
+        line-height: 18px;
+        font-size: 13px;
+    }
+    .capabilities h2 {
+        font-size: 43px;
+        top: 5%;
+    }
+    .capabilities .carousel-caption h3, .solution .capabilities-caption h3 {
+        font-size: 16px;
+        margin-bottom: -5%;
+        margin-top: 1%;
+    }
+    .capabilities-indicators li, .capabilities-indicators .active {
+        height: 15px !important;
+        width: 15px !important;
+        margin-left: auto;
+    }
+    .capabilities-indicators {
+        right: 8% !important;
+        bottom: 0% !important;
+        left: 0% !important;
+        transform: rotate(0deg);
+        top: 95%!important;
+    }
+    .capabilities .carousel-caption p {
+        font-size: 12px;
+        padding-right: 0%;
+        line-height: 24px;
+    }
+    .connect p {
+        font-size: 10px;
+        padding-top: 3%;
+    }
+    .section-a h5, .section-b h5, .social-icon ul h5 {
+        font-size: 10px;
+    }
+    .footer hr {
+        margin-top: -13%;
+    }
+    .social-icon ul:last-child {
+        padding-left: 5%;
+    }
+    .sub-footer hr {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: -2%;
+    }
+    .company-address li a, .company-address li, .sub-footer p, .sub-footer p a {
+        font-size: 8px;
+    }
+    .solution h2 {
+        font-size: 59px;
+        top: 5%;
+    }
+}

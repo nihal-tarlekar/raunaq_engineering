@@ -1,0 +1,85 @@
+.contact, .map
+{
+			padding-top: 4%;
+			padding-bottom: 7%;
+			padding: 5%;
+		}
+.contact-heading h4
+{
+    font-family: 'rubikmedium';
+    font-size: 15px;
+    margin-bottom: 0%;	
+}
+.contact-btm{
+    width: 8%;
+}
+.contact-btm-1{
+    width: 6%;
+}
+.contact-subheading   
+{  
+    font-family: 'rubikregular';
+    font-size: 18px;
+    margin-bottom: -0.5%;
+}
+.contact-topspace
+{
+	margin-top:5%;
+}
+.contact-para
+{
+font-family: 'rubiklight';
+font-size:16px;
+padding-top:2%;
+}
+.lft-sp
+{
+padding-left:0% !important;
+}
+.frm-box {
+    width: 100%;
+    border: 0px solid #D5D5D5;
+    padding: 15px;
+    margin: 0px 0px 25px 0px;
+    background-color: #fff;
+    font-family: 'rubikregular';
+    color: #7b7b7b;
+    border-bottom: 1px solid #D5D5D5;
+	}
+.contact-para a{
+    color: #000000;
+}	
+	
+.smt-btn {
+    font-family: 'rubiklight';
+    font-size: 17px;
+    padding: 2%;
+    background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #d5d5d5;
+}
+.smt-btn:hover {
+    background-color: #2792D0;
+    border-color: #2792D0;
+    color: #fff;
+    transition: ease 0.3s;
+}
+@media screen and (max-width: 2560px){
+
+}
+@media screen and (max-width: 480px){
+    .contact{
+        text-align: center;
+    }
+    .contact-btm{
+        width: 15%;
+        height: 5px;
+    }
+    .smt-btn { 
+        padding: 5%;
+    }
+    .contact-btm-1 {
+        width: 15%;
+        height: 5px;
+    }
+}

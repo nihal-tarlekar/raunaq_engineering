@@ -1,0 +1,468 @@
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  .sidenav li{
+      list-style: none;
+  }
+  /* The navigation menu links */
+  .sidenav a {
+    font-family: 'rubikregular'; 
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .side-navigation .dropdown-item {
+      font-size: 14px;
+      padding: 10px 20px;
+      color: #000;
+  }
+  .side-navigation .dropdown-menu{
+      margin-left: 8%;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .bg-light{
+      background-color: transparent !important;
+  }
+  .carousel {
+    position: relative;
+    top: 0%;
+}
+.navbar {
+    position: absolute;
+    padding: 2% 5%;
+    top: 0%;
+    width: 100%;
+    z-index: 9999;
+}
+.img-fluid{
+    width: 100%;
+}
+.img-logo{
+    width: 65%;
+}
+.img-menu-icon{
+    width: 80%;
+    cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'rubikregular';
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 10px;
+}
+.nav-active{
+    font-weight: bold;
+    color: #FFE30D;
+}
+.dropdown-menu {
+   
+    padding: 0rem 0;
+    margin: .125rem 0 0;
+    color: #000;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0px;
+}
+.dropdown-item {
+    font-family: 'rubikregular';
+    font-size: 13px;
+    padding: 10px 20px;
+    color: #212529;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #2792D0;
+}
+.carousel-indicators {
+    right: 9%;
+    bottom: 20px;
+    left: 0%;
+    z-index: 15;
+    -webkit-box-pack: flex-end;
+    -ms-flex-pack: flex-end;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.carousel-indicators li { 
+    height: 2px;
+    width: 40px;
+}
+.carousel-indicators .active{
+    height: 3.5px;
+    margin-top: -1px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 20%;
+    left: 65%;
+    z-index: 10;
+    padding-right: 5.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+.carousel-caption h1 {
+    font-family: 'rubikregular';
+    font-size: 40px;
+    line-height: 42px;
+    text-align: left;
+}
+.carousel-caption p{
+    font-family: 'rubiklight';
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 2%;
+    text-align: left;
+}
+.btn-outline-primary {
+    font-family: 'rubiklight';
+    font-size: 13px;
+    padding: 12px 25px;
+    margin-top: 2%;
+    color: #fff;
+    border-radius: 0px;
+    background-color: transparent;
+    border-color: #fff;
+}
+.btn-outline-primary:hover{
+    color: #2792D0;
+    background-color: #fff;
+    border-color: #fff;
+    transition: ease 0.3s;
+}
+/* About us */
+.about-us{
+    padding: 5% 10%;
+    background-color: #F7F7F7;
+}
+.about-details{
+    text-align: center;
+}
+.about-details h4, .products-rgt h4, .capabilities-rgt h4, .client-lft h4, .capabilities-lft h4{
+    font-family: 'rubikmedium';
+    font-size: 20px;
+    margin-bottom: -0.5%;
+}
+.btm-line{
+    width: 5%;
+}
+.about-details p, .products-rgt p, .client-lft p{
+    font-family: 'rubikregular';
+    font-size: 16px;
+    padding-top: 3%;
+}
+.capabilities-rgt p{
+    font-family: 'rubiklight';
+    font-size: 16px;
+    padding-top: 3%;
+}
+.about-details h3, .products-rgt h3, .capabilities-rgt h3,  .client-lft h3{
+    font-family: 'rubikregular';
+    font-size: 26px;
+    line-height: 38px;
+    padding-top: 3%;
+}
+.counting{
+    padding-top: 5%;
+}
+.counting-details h5{
+    font-family: 'rubiklight';
+    font-size: 38px;
+}
+.counting-details p{
+    font-family: 'rubikregular';
+    font-size: 18px;
+}
+.btn-outline-secondary{
+    font-family: 'rubiklight';
+    font-size: 13px;
+    padding: 12px 25px;
+    margin-top: 2%;
+    color: #000;
+    border-radius: 0px;
+    background-color: transparent;
+    border-color: #2792D0;
+}
+.btn-outline-secondary:hover{
+    color: #fff;
+    background-color: #2792D0;
+    border-color: #2792D0;
+    transition: ease 0.3s;
+}
+.superscripted, .superscripted-1{
+    position: absolute;
+    font-size: 30px;
+    top: 0%;
+}
+.superscripted-1{
+    top: -4%
+}
+/* products */
+.products{
+    padding: 5% 5%;
+}
+.products-rgt h4 {
+    margin-bottom: -1%;
+}
+.products-rgt h6{
+    font-family: 'rubiklight';
+    font-size: 16px;
+    padding-top: 3%;
+    line-height: 24px;
+}
+.btm-line-1{
+    width: 10%;
+}
+.product-overlay{
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #E2E2E2;
+}
+.product-overlay:hover .product-overlay-1{
+    opacity: 1;
+    border: 0px solid #fff;
+    box-shadow: 5px 15px 15px #E2E2E2 ;
+    transition: ease-in 0.4s;
+}
+.product-overlay:hover .product-overlay-details p{
+    color: #fff !important;
+    text-shadow: 1px 1px #ccc;
+    transition: ease-in 0.3s;
+}
+.product-overlay-1{
+    position: absolute;
+    left: 0%;
+    opacity: 0;
+}
+.product-overlay-details{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+.product-overlay-details p{
+    font-family: 'rubikmedium';
+    font-size: 16px;
+    margin-bottom: 0%;
+    color: #000;
+    padding-left: 10%;
+}
+.prod-btm-line{
+    margin-top: -5%;
+    margin-left: 10%;
+}
+.products-rgt{
+    padding-left: 10%;
+}
+/* capabilities */
+.capabilities{
+    background-image: url("../images/homepage/capabilities-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5% 5%;
+    color: #fff;
+    position: relative;
+}
+.capabilities h2, .solution h2{
+    position: absolute;
+    font-family: 'rubikmedium';
+    font-size: 164px;
+    color: #389de0b3 !important;
+    top: 8%;
+}
+.capabilities-rgt p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.btm-line-2 {
+    width: 8%;
+    margin-top: -2%;
+}
+.machine-img{
+    width: 34%;
+    margin-left: 26%;
+    margin-top: 12%;
+}
+.capabilities-indicators{
+    position: absolute;
+    transform: rotate(90deg);
+    right: 55%;
+    bottom: 52%;
+    left: -20%;
+    z-index: 999;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.capabilities-indicators li{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-left: auto;
+}
+.capabilities-indicators .active{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+.capabilities .carousel-caption h3{
+    font-family: 'rubikregular';
+    font-size: 20px;
+    margin-bottom: -2%;
+}
+.capabilities .carousel-caption p{
+    font-family: 'rubikregular';
+    font-size: 14px;
+}
+.capabilities-slider .capabilities-caption{
+    position: relative;
+    left: 33%;
+    text-align: left;
+}
+
+/* client */
+.client{
+    padding: 5% 5%;
+}
+.margin-tp{
+    margin-top: 5%;
+}
+/* footer */
+.footer{
+    background-image: url("../images/homepage/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    padding-top: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+.connect h6{
+    font-family: 'rubikmedium';
+    font-size: 16px;
+    color: #A5A5A5;
+    margin-bottom: -3%;
+}
+.footer-btm-line {
+    width: 12%;
+    margin-top: 2%;
+}
+.connect p{
+    font-family: 'rubikregular';
+    font-size: 16px;
+    color: #A5A5A5;
+    padding-top: 5%;
+}
+.connect h2 {
+    font-family: 'rubikregular';
+    font-size: 46px;
+    color: #A5A5A5;
+    padding-top: 10%;
+}
+.footer-link{
+    display: flex;
+}
+.section-a h5, .section-b h5, .social-icon ul h5{
+    font-family: 'rubikregular';
+    font-size: 14px;
+    color: #A5A5A5;
+}
+.section-a p a, .section-b p a{
+    font-family: 'rubikregular';
+    font-size: 14px;
+    color: #A5A5A5;
+    text-decoration: none;
+}
+.section-a{
+    width: 15%;
+}
+.section-b p{
+    display: inline-flex;
+}
+.social-icon{
+    padding-top: 2%;
+}
+.social-icon li{
+    list-style: none;
+    display: inline-flex;
+    padding-left: 0%;
+}
+.social-icon li:first-child{
+    padding-left: 0%
+
+}
+.social-icon ul {
+    padding-left: 0%;
+    display: inline-flex;
+    margin-bottom: -2%;
+    width: 38%;
+}
+.social-icon ul:last-child{
+    padding-left: 20%;
+}
+.social-svg{
+    width: 95%;
+    padding-left: 20%;
+}
+.map-svg{
+    margin-top: -100%;
+    margin-left: 20%;
+}
+.footer hr{
+    border: 0.8px solid #2792D0;
+}
+.company-address li a, .company-address li{
+    font-family: 'rubikregular';
+    font-size: 16px;
+    color: #A5A5A5;
+    list-style: none;
+    padding-bottom: 1%;
+}
+.company-address ul{
+    padding-left: 0%;
+}
+.address-icon{
+    width: 2%;
+}

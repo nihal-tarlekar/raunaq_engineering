@@ -1,0 +1,664 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carousel-caption {
+    bottom: 25%;
+}
+.about-details {
+    text-align: left;
+    padding-left: 5%;
+}
+.about-lft{
+    padding-right: 5%;
+}
+.about-details h3{
+    font-family: 'rubiklight';
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 3%;
+}
+.btm-line {
+    width: 12%;
+}
+.counting{
+    margin-top: 5%;
+}
+.counting-details{
+    text-align: center;
+}
+.mrgn-tp{
+    margin-top: 5%;
+}
+.testimonial{
+    padding: 5% 5%;
+}
+.testimonial-lft{
+    position: relative;
+}
+.testimonial-lft p, .testimonial-lft-1 p {
+    font-family: 'rubiklight';
+    font-size: 32px;
+    line-height: 41px;
+    padding-left: 25%;
+}
+.testimonial-lft-1 p{
+    padding-left: 15%;
+}
+.mrgin-tp{
+    margin-top: 8%;
+}
+.img-exl, .img-exl-1{
+    position: absolute;
+    width: 18%;
+}
+.img-exl-1{
+    left: -10%;
+}
+.img-testi{
+    width: 45%;
+}
+.testimonial hr{
+    border: 1px solid #A5A5A5;
+    margin-top: 5%;
+}
+.testimonial-rft h6{
+    font-family: 'rubikregular';
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5%;
+}
+.testimonial-rft p{
+    font-family: 'rubikregular';
+    font-size: 14px;
+    text-align: center;
+}
+.capabilities h2 {
+    position: absolute;
+    font-family: 'rubikmedium';
+    font-size: 230px;
+    color: #389de0b3 !important;
+    top: 0%;
+    left: 12%;
+}
+.capabilities-rgt h3{
+    font-family: 'rubiklight';
+}
+.machine-img {
+    width: 60%;
+    margin-left: 26%;
+    margin-top: 2%;
+}
+.capabilities-slider{
+    margin-top: -7%;
+}
+.capabilities {
+    background-image: url("../images/about-us/award-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 2560px){
+    .carousel-caption {
+        bottom: 38%;
+        padding-right: 5%;
+    }
+    .carousel-caption h1 {
+        line-height: 90px;
+    }
+    .about-us {
+        padding: 5% 5%;
+    }
+    .about-details h3 {
+        font-size: 40px;
+        line-height: 56px;
+        padding-top: 3%;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 58px;
+        line-height: 82px;
+    }
+    .testimonial-rft h6 {
+        font-size: 42px;
+        margin-top: 5%;
+    }
+    .testimonial-rft p {
+        font-size: 36px;
+    }
+    .capabilities-rgt h3{
+        font-size: 48px;
+        line-height: 72px;
+    }
+    .capabilities-indicators li {
+        margin-left: 15%;
+    }
+    .capabilities-indicators {  
+        bottom: 70%;
+    }
+}
+@media screen and (max-width: 1920px){
+    .carousel-caption h1 {
+        line-height: 64px;
+    }
+    .carousel-caption {
+        top: 32%;
+        padding-right: 5%;
+    }
+    .about-details p{
+        font-size: 30px;
+    }
+    .about-details h3 {
+        font-size: 32px;
+        line-height: 48px;
+        padding-top: 3%;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 44px;
+        line-height: 58px;
+    }
+    .testimonial-rft h6 {
+        font-size: 32px;
+        margin-top: 5%;
+    }
+    .testimonial-rft p {
+        font-size: 28px;
+    }
+    .capabilities-rgt h3 {
+        font-size: 40px;
+        line-height: 56px;
+    }
+}
+@media screen and (max-width: 1600px){
+    .carousel-caption h1 {
+        line-height: 58px;
+    }
+    .carousel-caption {
+        top: 30%;
+        padding-right: 5%;
+    }
+    .about-details h3 {
+        font-size: 28px;
+        line-height: 40px;
+        padding-top: 3%;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .testimonial-rft h6 {
+        font-size: 26px;
+        margin-top: 5%;
+    }
+    .about-details p {
+        font-size: 26px;
+    }
+    .testimonial-rft p {
+        font-size: 24px;
+    }
+    .capabilities-rgt h3 {
+        font-size: 36px;
+        line-height: 52px;
+    }
+}
+@media screen and (max-width: 1440px){
+    .carousel-caption h1 {
+        line-height: 52px;
+    }
+    .carousel-caption {
+        bottom: 34%;
+        padding-right: 5%;
+    }
+    .about-details h3 {
+        font-size: 26px;
+        line-height: 38px;
+        padding-top: 3%;
+    }
+    .about-details p {
+        font-size: 24px;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .testimonial-rft h6 {
+        font-size: 25px;
+        margin-top: 5%;
+    }
+    .testimonial-rft p {
+        font-size: 22px;
+    }
+    .capabilities-rgt h3 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+    .capabilities-indicators {
+        bottom: 60%;
+    }
+}
+@media screen and (max-width: 1366px){
+    .carousel-caption h1 {
+        line-height: 50px;
+    }
+    .carousel-caption {
+        bottom: 32%;
+        padding-right: 5%;
+    }
+    .about-details p {
+        font-size: 23px;
+    }
+    .about-details h3 {
+        font-size: 24px;
+        line-height: 34px;
+        padding-top: 3%;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .testimonial-rft h6 {
+        font-size: 24px;
+        margin-top: 5%;
+    }
+    .testimonial-rft p {
+        font-size: 21px;
+    }
+    .capabilities-rgt h3 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .capabilities-indicators {
+        right: 55%;
+        bottom: 65%;
+        left: -20%;
+    }
+}
+@media screen and (max-width: 1280px){
+    .about-details h3 {
+        font-size: 22px;
+        line-height: 32px;
+        padding-top: 3%;
+    }
+    .about-details p {
+        font-size: 21px;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .testimonial-rft h6 {
+        font-size: 24px;
+        margin-top: 5%;
+    }
+    .testimonial-rft p {
+        font-size: 20px;
+    }
+    .capabilities-rgt h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+@media screen and (max-width: 1280px) and (max-height: 610px){
+    .carousel-caption h1 {
+        line-height: 44px;
+    }
+    .carousel-caption {
+        bottom: 26%;
+        padding-right: 5%;
+    }
+    .about-details h3 {
+        font-size: 22px;
+        line-height: 30px;
+        padding-top: 3%;
+    }
+    .about-details p {
+        font-size: 18px;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .testimonial-rft h6 {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+    .testimonial-rft p {
+        font-size: 16px;
+    }
+    .capabilities-rgt h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}
+@media screen and (max-width: 1240px){
+    .carousel-caption h1 {
+        line-height: 46px;
+    }
+    .about-details h3 {
+        font-size: 21px;
+        line-height: 31px;
+        padding-top: 3%;
+    }
+    .about-details p {
+        font-size: 18px;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .testimonial-rft h6 {
+        font-size: 18px;
+        margin-top: 5%;
+    }
+    .testimonial-rft p {
+        font-size: 16px;
+    }
+    .capabilities-rgt h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .carousel-caption h1 {
+        line-height: 40px;
+    }
+    .about-details h3 {
+        font-size: 20px;
+        line-height: 26px;
+        padding-top: 3%;
+    }
+    .about-details p {
+        font-size: 17px;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .capabilities-rgt h3 {
+        font-size: 23px;
+        line-height: 34px;
+    }
+    .machine-img {
+        margin-top: 10%;
+    }
+    .capabilities-indicators {
+        bottom: 57%;
+    }
+}
+@media screen and (max-width: 800px){
+    .carousel-caption h1 {
+        line-height: 30px;
+    }
+    .carousel-caption {
+        bottom: 28%;
+        padding-right: 5%;
+    }
+    .about-details p {
+        font-size: 18px;
+    }
+    .about-details h3 {
+        font-size: 18px;
+        line-height: 22px;
+        padding-top: 3%;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .capabilities-rgt h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .testimonial-rft h6 {
+        font-size: 18px;
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 768px){
+    .carousel-caption h1 {
+        line-height: 26px;
+    }
+    .carousel-caption {
+        bottom: 23%;
+        padding-right: 5%;
+    }
+    .about-details h3 {
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 3%;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .capabilities-indicators {
+        right: 55%;
+        bottom: 52%;
+        left: -20%;
+    }
+}
+@media screen and (max-width: 480px){
+    .carousel-caption h1 {
+        line-height: 52px;
+    }
+    .carousel-caption {
+        bottom: 30%;
+        padding-right: 5%;
+    }
+    .about-details p {
+        font-size: 20px;
+    }
+    .about-details {
+        text-align: center;
+        padding-left: 0%;
+    }
+    .about-details h3 {
+        font-size: 22px;
+        line-height: 32px;
+        padding-top: 3%;
+    }
+    .about-lft {
+        padding-right: 0%;
+        margin-top: 5%;
+    }
+    .testimonial-rft h6 {
+        font-size: 22px;
+        margin-top: 8%;
+    }
+    .testimonial-rft p {
+        font-size: 18px;
+    }
+    .img-exl, .img-exl-1 {
+        width: 16%;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 22px;
+        line-height: 30px;
+        padding-left: 20%;
+    }
+    .img-exl-1 {
+        left: 2%;
+    }
+    .capabilities {
+        background-image: url("../images/homepage/capabilities-bg-mb.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .capabilities {
+        padding: 0% 0%;
+    }
+    .capabilities h2 {
+        font-size: 102px;
+        top: 2%;
+        left: 5%;
+    }
+    .capabilities-rgt {
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .capabilities-rgt h4 {
+        padding-top: 12%;
+    }
+    .capabilities-slider{
+        margin-bottom: 15%;
+    }
+    .capabilities-indicators {
+        top: 105%!important;
+        right: 32% !important;
+    }
+    .capabilities-rgt h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .btm-line, .btm-line-1, .btm-line-2, .footer-btm-line {
+        width: 20%;
+        height: 5px;
+    }
+}
+
+@media screen and (max-width: 414px) and (max-height: 896px){
+    .carousel-caption h1 {
+        line-height: 50px;
+    }
+    .about-details h3 {
+        font-size: 21px;
+        line-height: 30px;
+        padding-top: 3%;
+    }
+    .capabilities h2 {
+        font-size: 88px;
+    }
+    .about-details p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 414px) and (max-height: 736px){
+    .capabilities-indicators li {
+        margin-left: 15% !important;
+    }
+}
+@media screen and (max-width: 412px){
+    .carousel-caption h1 {
+        line-height: 46px;
+    }
+    .about-details h3 {
+        font-size: 18px;
+        line-height: 26px;
+        padding-top: 3%;
+    }
+    .testimonial-rft h6 {
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 20px;
+        line-height: 28px;
+        padding-left: 20%;
+    }
+    .capabilities-rgt h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+@media screen and (max-width: 393px){
+    .capabilities h2 {
+        font-size: 84px;
+    }
+}
+@media screen and (max-width: 384px){
+    .carousel-caption h1 {
+        line-height: 40px;
+    }
+    .about-details h3 {
+        font-size: 18px;
+        line-height: 26px;
+        padding-top: 3%;
+    }
+    .about-details p {
+        font-size: 16px;
+    }
+    .testimonial-rft h6 {
+        font-size: 17px;
+        margin-top: 10%;
+    }
+    .testimonial-rft p {
+        font-size: 15px;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 18px;
+        line-height: 24px;
+        padding-left: 20%;
+    }
+    .capabilities-rgt h3 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 375px){
+    .capabilities-rgt h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .carousel-caption {
+        top: 36%;
+        padding-right: 5%;
+    }
+    .capabilities h2 {
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 360px){
+    .carousel-caption {
+        bottom: 28%;
+        padding-right: 5%;
+    }
+    .about-details h3 {
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 3%;
+    }
+    .testimonial-rft h6 {
+        font-size: 16px;
+        margin-top: 10%;
+    }
+    .capabilities h2 {
+        font-size: 78px;
+    }
+    .testimonial-rft p {
+        font-size: 14px;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 20%;
+    }
+    .capabilities-rgt h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 320px){
+    .carousel-caption h1 {
+        line-height: 36px;
+    }
+    .testimonial-lft p, .testimonial-lft-1 p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 20%;
+    }
+    .capabilities-rgt h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .capabilities h2 {
+        font-size: 68px;
+    }
+    .about-details p {
+        font-size: 14px;
+    }
+}
